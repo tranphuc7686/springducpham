@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="PhamDucSpring:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/PhamDucSpring_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="PhamDucSpring/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="PhamDucSpring" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.3.18.RELEASE" />
+          <element id="library" level="project" name="Spring Security-3.2.5" />
+          <element id="library" level="project" name="Spring Web Services-2.0.2" />
+          <element id="library" level="project" name="Hibernate 5.4.2-5.4.2" />
+          <element id="library" level="project" name="Spring MVC-4.3.18.RELEASE" />
+          <element id="library" level="project" name="org.ancoron.postgresql:org.postgresql:9.1.901.jdbc4.1-rc9" />
+          <element id="library" level="project" name="org.codehaus.jackson:jackson-core-asl:1.9.13" />
+          <element id="library" level="project" name="org.projectlombok:lombok:1.16.4" />
+          <element id="library" level="project" name="com.fasterxml.jackson.core:jackson-databind:2.9.8" />
+          <element id="library" level="project" name="jstl-1.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
